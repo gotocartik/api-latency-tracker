@@ -1,24 +1,24 @@
-# routepulse
+# routepulse-monitor
 
-![npm](https://img.shields.io/npm/dt/routepulse)
-![npm version](https://img.shields.io/npm/v/routepulse)
-![license](https://img.shields.io/npm/l/routepulse)
+![npm](https://img.shields.io/npm/dt/routepulse-monitor)
+![npm version](https://img.shields.io/npm/v/routepulse-monitor)
+![license](https://img.shields.io/npm/l/routepulse-monitor)
 
 > Lightweight Express.js middleware for API response time tracking, slow route detection, and real-time request metrics.
 
-**Why routepulse?** — Strong, short, memorable, modern, not over-generic, and expandable later for dashboards, metrics, analytics, and monitoring.
+**Why routepulse-monitor?** — Strong, short, memorable, modern, not over-generic, and expandable later for dashboards, metrics, analytics, and monitoring.
 
 ## Installation
 
 ```bash
-npm install routepulse
+npm install routepulse-monitor
 ```
 
 ## Quick Start
 
 ```js
 import express from "express";
-import { latencyTracker } from "routepulse";
+import { latencyTracker } from "routepulse-monitor";
 
 const app = express();
 
