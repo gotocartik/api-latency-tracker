@@ -1,6 +1,6 @@
 {
   "name": "routepulse-monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight Express.js middleware for API response time tracking, slow route detection, and real-time request metrics.",
   "type": "module",
   "main": "index.js",
