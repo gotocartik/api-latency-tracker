@@ -1,0 +1,37 @@
+{
+  "name": "routepulse",
+  "version": "1.0.0",
+  "description": "Lightweight Express.js middleware for API response time tracking, slow route detection, and real-time request metrics.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "middleware",
+    "latency",
+    "response-time",
+    "monitoring",
+    "analytics",
+    "metrics",
+    "dashboard",
+    "slow-routes",
+    "api-monitoring",
+    "performance",
+    "observability",
+    "express-middleware",
+    "request-tracking",
+    "route-tracking",
+    "api-metrics",
+    "real-time",
+    "nodejs",
+    "express-monitor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotocartik/api-latency-tracker.git"
+  },
+  "funding": "https://buymeacoffee.com/gotocartik",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
