@@ -1,6 +1,7 @@
 # routepulse-monitor
 
 ![npm](https://img.shields.io/npm/dt/routepulse-monitor)
+![npm](https://img.shields.io/npm/dw/routepulse-monitor)
 ![npm version](https://img.shields.io/npm/v/routepulse-monitor)
 ![license](https://img.shields.io/npm/l/routepulse-monitor)
 

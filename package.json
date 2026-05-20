@@ -24,7 +24,10 @@
     "api-metrics",
     "real-time",
     "nodejs",
-    "express-monitor"
+    "express-monitor",
+    "success-rate",
+    "error-rate",
+    "endpoint-tracking"
   ],
   "repository": {
     "type": "git",

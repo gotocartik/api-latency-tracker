@@ -78,13 +78,25 @@ export class RoutePulse {
       statusBreakdown[status] = (statusBreakdown[status] || 0) + 1;
     }
 
+    let successCount = 0;
+    let errorCount = 0;
+    for (const entry of this.history) {
+      if (entry.status >= 200 && entry.status < 400) successCount++;
+      else errorCount++;
+    }
+    const total = this.history.length;
+
     return {
-      total: this.history.length,
-      average: Math.round(totalTime / this.history.length),
+      total,
+      average: Math.round(totalTime / total),
       slow: slowCount,
       slowest: slowest ? { method: slowest.method, path: slowest.path, duration: slowest.duration } : null,
       routes,
       statusBreakdown,
+      successCount,
+      errorCount,
+      successRate: total ? Math.round((successCount / total) * 100) : 0,
+      errorRate: total ? Math.round((errorCount / total) * 100) : 0,
       threshold: this.slowThreshold,
     };
   }
