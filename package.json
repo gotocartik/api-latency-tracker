@@ -36,5 +36,8 @@
   "funding": "https://buymeacoffee.com/gotocartik",
   "engines": {
     "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "express": "^4.18.0"
   }
 }
